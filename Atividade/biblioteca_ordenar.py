@@ -16,7 +16,6 @@ livros = [
     {"titulo": "O Hobbit", "autor": "J.R.R. Tolkien", "ano": "1937", "genero": "Fantasia"}
 ] #Criando a nossa biblioteca de livros
 
-
 #Criando uma lista ordenada de livros por titulo
 livros_ordenados_por_titulo = sorted(livros, key=lambda livro: livro["titulo"]) #Nova lista ordenada com uma função sem nome que retorna o valor do dicionario "titulo"
 

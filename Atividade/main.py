@@ -11,9 +11,10 @@ while ocorrencia:
     match input_cli:
         case "help":
             print("\nComandos:\n")
-            print("exibir para ver a lista")
-            print("ordenar")
-            print("buscar")
+            print("'exibir' para ver a lista")
+            print("'ordenar'")
+            print("'buscar'")
+            print("'exit' para sair")
 
         case "exibir":
             for i, livro in enumerate(bibli_current):
@@ -33,22 +34,27 @@ while ocorrencia:
                 if ordenar_metodo == "1":
                     bibli_current = livros_ordenados_por_titulo
                     print("Ordenado por 'titulo'")
+                    break
 
                 elif ordenar_metodo == "2":
                     bibli_current = livros_ordenados_por_autor
                     print("Ordenado por 'Autor'")
+                    break
 
                 elif ordenar_metodo == "3":
                     bibli_current = livros_ordenados_por_ano
                     print("Ordenado por 'Ano'")
+                    break
 
                 elif ordenar_metodo == "4":
                     bibli_current = livros_ordenados_por_genero
                     print("Ordenado por 'Genero'")
+                    break
 
                 elif ordenar_metodo == "5":
                     bibli_current = livros
                     print("Biblioteca padrão")
+                    break
 
                 elif ordenar_metodo == "6":
                     print("Voltando ao menu..")
@@ -110,6 +116,11 @@ while ocorrencia:
                 for livro in lista_l:
                     print(livro)
 
+        case "exit":
+            ocorrencia = False
+    
         case _:
             print("Comando invalido, tente novamente.")
             continue
+
+print("\nPrograma terminado.\n")
