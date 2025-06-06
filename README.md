@@ -1,5 +1,6 @@
 # Membros:
-**_Vitor Gomes Araújo, RGM: 39007294**
+**_Vitor Gomes Araújo_, RGM: 39007294**
+<br>
 **_Bryan Henrique Ristoff_, CPF: 03882056-1**
 
 
