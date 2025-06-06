@@ -1,14 +1,19 @@
 livros = [
-    {"titulo": "Dom Casmurro", "autor": "Machado de Assis", "ano": 1899, "genero": "Romance"},
-    {"titulo": "1984", "autor": "George Orwell", "ano": 1949, "genero": "Distopia"},
-    {"titulo": "O Senhor dos Anéis", "autor": "J.R.R. Tolkien", "ano": 1954, "genero": "Fantasia"},
-    {"titulo": "O Pequeno Príncipe", "autor": "Antoine de Saint-Exupéry", "ano": 1943, "genero": "Fábula"},
-    {"titulo": "Capitães da Areia", "autor": "Jorge Amado", "ano": 1937, "genero": "Drama"},
-    {"titulo": "Orgulho e Preconceito", "autor": "Jane Austen", "ano": 1813, "genero": "Romance"},
-    {"titulo": "A Revolução dos Bichos", "autor": "George Orwell", "ano": 1945, "genero": "Satírico"},
-    {"titulo": "Cem Anos de Solidão", "autor": "Gabriel García Márquez", "ano": 1967, "genero": "Realismo Mágico"},
-    {"titulo": "Harry Potter e a Pedra Filosofal", "autor": "J.K. Rowling", "ano": 1997, "genero": "Fantasia"},
-    {"titulo": "A Metamorfose", "autor": "Franz Kafka", "ano": 1915, "genero": "Ficção Existencialista"},
+    {"titulo": "Dom Casmurro", "autor": "Machado de Assis", "ano": "1899", "genero": "Romance"},
+    {"titulo": "1984", "autor": "George Orwell", "ano": "1949", "genero": "Distopia"},
+    {"titulo": "O Senhor dos Anéis", "autor": "J.R.R. Tolkien", "ano": "1954", "genero": "Fantasia"},
+    {"titulo": "O Pequeno Príncipe", "autor": "Antoine de Saint-Exupéry", "ano": "1943", "genero": "Fábula"},
+    {"titulo": "Capitães da Areia", "autor": "Jorge Amado", "ano": "1937", "genero": "Drama"},
+    {"titulo": "Orgulho e Preconceito", "autor": "Jane Austen", "ano": "1813", "genero": "Romance"},
+    {"titulo": "A Revolução dos Bichos", "autor": "George Orwell", "ano": "1945", "genero": "Satírico"},
+    {"titulo": "Cem Anos de Solidão", "autor": "Gabriel García Márquez", "ano": "1967", "genero": "Realismo Mágico"},
+    {"titulo": "Harry Potter e a Pedra Filosofal", "autor": "J.K. Rowling", "ano": "1997", "genero": "Fantasia"},
+    {"titulo": "A Metamorfose", "autor": "Franz Kafka", "ano": "1915", "genero": "Ficção Existencialista"},
+    {"titulo": "O Triste Fim de Policarpo Quaresma", "autor": "Lima Barreto", "ano": "1899", "genero": "Romance"},
+    {"titulo": "Percy Jackson e o Ladrão de Raios", "autor": "Rick Riordan", "ano": "2005", "genero": "Fantasia"},
+    {"titulo": "Ensaio Sobre a Cegueira", "autor": "José Saramago", "ano": "1995", "genero": "Drama"},
+    {"titulo": "Animal Farm", "autor": "George Orwell", "ano": "1945", "genero": "Satírico"},
+    {"titulo": "O Hobbit", "autor": "J.R.R. Tolkien", "ano": "1937", "genero": "Fantasia"}
 ] #Criando a nossa biblioteca de livros
 
 
